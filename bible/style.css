@@ -1,0 +1,10 @@
+h1 { font-size: 1.5em; color: #003399; }
+h2 { font-size: 1.3em; font-variant: small-caps ; color: #003399; }
+h3 { font-size: 1.1em; color: #003399; }
+#old-testament, #new-testament {
+    float: left;
+    padding: 0 20px;
+}
+ol {
+    list-style-type: none;
+}

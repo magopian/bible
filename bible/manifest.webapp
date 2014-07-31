@@ -1,0 +1,13 @@
+{
+  "name": "Bible",
+  "description": "The 'Louis Segond 1910' french translation of the Holy Bible",
+  "launch_path": "/index.html",
+  "icons": {
+    "60": "/images/icon-60.png",
+    "128": "/images/icon-128.png"
+  },
+  "developer": {
+    "name": "Mathieu Agopian",
+    "url": "http://mathieu.agopian.info"
+  }
+}
