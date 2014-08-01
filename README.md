@@ -8,7 +8,8 @@ applications are working or offer French translations.
 
 The "Louis Segond 1910" translation is in the public domain, but the files I
 found to download it are... full of cruft, and really difficult to process
-(check the "sources" folder).
+(check the "sources" folder, already cleaned up from
+http://www.info-bible.org/bible/telechar.htm).
 
 As a first step, transform the current html files to the markdown format, which
 will then be exported to clean html using pandoc.
