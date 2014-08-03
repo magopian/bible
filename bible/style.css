@@ -1,10 +1,19 @@
-h1 { font-size: 1.5em; color: #003399; }
-h2 { font-size: 1.3em; font-variant: small-caps ; color: #003399; }
-h3 { font-size: 1.1em; color: #003399; }
+body { font-size: 1.5em; }
+h1, h2, h3 {
+    color: #039;
+    text-align: center;
+}
+h1 { font-size: 1.5em; }
+h2 { font-size: 1.3em; font-variant: small-caps; }
+h3 { font-size: 1.1em; }
 #old-testament, #new-testament {
     float: left;
     padding: 0 20px;
 }
-ol {
-    list-style-type: none;
+ol { list-style-type: none; }
+a#back-to-toc {
+    font-size: 2em;
+    left: 5px;
+    position: fixed;
+    top: 5px;
 }
