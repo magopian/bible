@@ -12,8 +12,16 @@ h3 { font-size: 1.1em; }
 }
 ol { list-style-type: none; }
 a#back-to-toc {
+    background: white;
+    border: 1px solid;
     font-size: 2em;
     left: 5px;
     position: fixed;
+    text-decoration: none;
     top: 5px;
+}
+ul li {
+    display: inline-block;
+    padding-bottom: 5px;
+    width: 2em;
 }
