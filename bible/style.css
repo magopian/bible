@@ -11,17 +11,24 @@ h3 { font-size: 1.1em; }
     padding: 0 20px;
 }
 ol { list-style-type: none; }
-a#back-to-toc {
+nav {
     background: white;
     border: 1px solid;
     font-size: 2em;
-    left: 5px;
+    left: -5px;
+    padding-left: 10px;
     position: fixed;
+    transition: top 0.2s ease-in-out;
+    top: -1.2em;
+    width: 100%;
+}
+nav a {
     text-decoration: none;
-    top: 5px;
+}
+nav.show {
+    top: 0;
 }
 ul li {
     display: inline-block;
-    padding-bottom: 5px;
-    width: 2em;
+    padding: 5px 5px;
 }

@@ -1,6 +1,6 @@
-var toc = document.getElementsByTagName('ul')[0];
-var chapters = toc.getElementsByTagName('li');
 var book_name = document.getElementsByTagName('h1')[0].textContent;
+var toc = document.getElementsByTagName('ul')[0];
+var chapters = toc.children;
 
 for (var i = 0; i < chapters.length; i++) {
   // Remove the book name from the links to the chapters.
