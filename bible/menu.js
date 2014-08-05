@@ -6,7 +6,7 @@ window.addEventListener('scroll', function() {
   if ((previousScrollY > currentScrollY) && (menu.className == '')) {
     // Scrolling up: show menu.
     menu.className = 'show';
-  } else if ((previousScrollY < currentScrollY) && (menu.className='show')) {
+  } else if ((previousScrollY < currentScrollY) && (menu.className == 'show')) {
     // Scrolling down: hide menu.
     menu.className = '';
   }
