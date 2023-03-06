@@ -93,7 +93,7 @@ if __name__ == '__main__':
     book_name = filename[3:6]
     book_info = BOOKS[book_name]
 
-    soup = BeautifulSoup(open(file_path))
+    soup = BeautifulSoup(open(file_path), features="lxml")
 
     num_chapters = len(book_info)
     sys.stdout.write('{0} has {1} chapters: '.format(book_name, num_chapters))
